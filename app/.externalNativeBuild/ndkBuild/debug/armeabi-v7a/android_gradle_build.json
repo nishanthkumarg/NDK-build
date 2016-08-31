@@ -1,0 +1,67 @@
+{
+  "buildFiles": [
+    "/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/Android.mk",
+    "/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/Android.mk NDK_APPLICATION_MK\u003d/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDEBUG\u003d1 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003d/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/.externalNativeBuild/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/build/intermediates/ndkBuild/debug/lib clean"
+  ],
+  "libraries": {
+    "hello-jni-debug-armeabi-v7a": {
+      "buildCommand": "/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/Android.mk NDK_APPLICATION_MK\u003d/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDEBUG\u003d1 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003d/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/.externalNativeBuild/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/build/intermediates/ndkBuild/debug/lib /Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/.externalNativeBuild/ndkBuild/debug/obj/local/armeabi-v7a/libhello-jni.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "hello-jni",
+      "files": [
+        {
+          "src": "/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/hello-jni.c",
+          "flags": "\"-gcc-toolchain\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-Iinclude\" \"-Iinclude\" \"-I/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/libapple/src/pie.c",
+          "flags": "\"-gcc-toolchain\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-Iinclude\" \"-I/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/libapple\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/libbanana/src/pie.c",
+          "flags": "\"-gcc-toolchain\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-Iinclude\" \"-I/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/libbanana\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include\""
+        }
+      ],
+      "output": "/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/.externalNativeBuild/ndkBuild/debug/obj/local/armeabi-v7a/libhello-jni.so"
+    },
+    "banana-debug-armeabi-v7a": {
+      "buildCommand": "/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/Android.mk NDK_APPLICATION_MK\u003d/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDEBUG\u003d1 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003d/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/.externalNativeBuild/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/build/intermediates/ndkBuild/debug/lib /Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/.externalNativeBuild/ndkBuild/debug/obj/local/armeabi-v7a/libbanana.a",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "banana",
+      "files": [
+        {
+          "src": "/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/libbanana/src/pie.c",
+          "flags": "\"-gcc-toolchain\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-Iinclude\" \"-I/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/libbanana\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include\""
+        }
+      ],
+      "output": "/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/.externalNativeBuild/ndkBuild/debug/obj/local/armeabi-v7a/libbanana.a"
+    },
+    "apple-debug-armeabi-v7a": {
+      "buildCommand": "/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/Android.mk NDK_APPLICATION_MK\u003d/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDEBUG\u003d1 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003d/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/.externalNativeBuild/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/build/intermediates/ndkBuild/debug/lib /Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/.externalNativeBuild/ndkBuild/debug/obj/local/armeabi-v7a/libapple.a",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "apple",
+      "files": [
+        {
+          "src": "/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/libapple/src/pie.c",
+          "flags": "\"-gcc-toolchain\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-Iinclude\" \"-I/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/libapple\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include\""
+        }
+      ],
+      "output": "/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/.externalNativeBuild/ndkBuild/debug/obj/local/armeabi-v7a/libapple.a"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cCompilerExecutable": "/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
