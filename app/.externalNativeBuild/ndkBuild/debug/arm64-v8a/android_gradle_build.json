@@ -1,11 +1,67 @@
 {
   "buildFiles": [
-    "/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/Android.mk",
-    "/Users/nishanthkumarg/Nishanth/2.2/145.3225885/Projects/probable-umbrella-2/app/src/main/cpp/Application.mk"
+    "/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/Android.mk",
+    "/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/Application.mk"
   ],
-  "cleanCommands": [],
-  "libraries": {},
-  "toolchains": {},
-  "cFileExtensions": [],
+  "cleanCommands": [
+    "/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/Android.mk NDK_APPLICATION_MK\u003d/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/build/intermediates/ndkBuild/debug/lib clean"
+  ],
+  "libraries": {
+    "banana-debug-arm64-v8a": {
+      "buildCommand": "/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/Android.mk NDK_APPLICATION_MK\u003d/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/build/intermediates/ndkBuild/debug/lib /Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libbanana.a",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "banana",
+      "files": [
+        {
+          "src": "/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/libbanana/src/pie.c",
+          "flags": "\"-gcc-toolchain\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-Iinclude\" \"-I/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/libbanana\" \"-DANDROID\" \"-D__ANDROID_API__\u003d21\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/sysroot\" \"-isystem\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android\""
+        }
+      ],
+      "output": "/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libbanana.a"
+    },
+    "hello-jni-debug-arm64-v8a": {
+      "buildCommand": "/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/Android.mk NDK_APPLICATION_MK\u003d/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/build/intermediates/ndkBuild/debug/lib /Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libhello-jni.so",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "hello-jni",
+      "files": [
+        {
+          "src": "/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/hello-jni.c",
+          "flags": "\"-gcc-toolchain\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-Iinclude\" \"-Iinclude\" \"-I/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp\" \"-DANDROID\" \"-D__ANDROID_API__\u003d21\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/sysroot\" \"-isystem\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android\""
+        },
+        {
+          "src": "/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/libapple/src/pie.c",
+          "flags": "\"-gcc-toolchain\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-Iinclude\" \"-I/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/libapple\" \"-DANDROID\" \"-D__ANDROID_API__\u003d21\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/sysroot\" \"-isystem\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android\""
+        },
+        {
+          "src": "/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/libbanana/src/pie.c",
+          "flags": "\"-gcc-toolchain\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-Iinclude\" \"-I/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/libbanana\" \"-DANDROID\" \"-D__ANDROID_API__\u003d21\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/sysroot\" \"-isystem\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android\""
+        }
+      ],
+      "output": "/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libhello-jni.so"
+    },
+    "apple-debug-arm64-v8a": {
+      "buildCommand": "/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/Android.mk NDK_APPLICATION_MK\u003d/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/build/intermediates/ndkBuild/debug/lib /Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libapple.a",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "apple",
+      "files": [
+        {
+          "src": "/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/libapple/src/pie.c",
+          "flags": "\"-gcc-toolchain\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-Iinclude\" \"-I/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/src/main/cpp/libapple\" \"-DANDROID\" \"-D__ANDROID_API__\u003d21\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/sysroot\" \"-isystem\" \"/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android\""
+        }
+      ],
+      "output": "/Users/nishanthkumarg/Nishanth/3.1/Projects/NDK-build/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libapple.a"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cCompilerExecutable": "/Users/nishanthkumarg/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
   "cppFileExtensions": []
 }

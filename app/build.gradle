@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
 
     defaultConfig {
         applicationId "com.example.hellojni"
-        minSdkVersion 3
-        targetSdkVersion 3
+        minSdkVersion 15
+        targetSdkVersion 26
 
         testApplicationId "com.example.hellojni.tests"
         testInstrumentationRunner "android.test.InstrumentationTestRunner"
